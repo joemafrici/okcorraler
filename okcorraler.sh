@@ -1,5 +1,13 @@
 #!/bin/bash
 cd ~/
+
+# Install zsh
+suto apt install zsh
+chsh -s $(which zsh)
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+cd ~/
 git clone git@github.com:joemafrici/dotfiles.git
 mv ~/dotfiles/.vim ~/.vim
 mv ~/dotfiles/.vimrc ~/.vimrc
@@ -28,3 +36,5 @@ git clone https://github.com/nathanaelkane/vim-indent-guides
 # Install Rainbow Parentheses Improved
 cd ~/.vim/bundle
 git clone git@github.com:luochen1990/rainbow.git
+
+
