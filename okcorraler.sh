@@ -24,3 +24,7 @@ git clone https://github.com/altercation/vim-colors-solarized
 # Install indent guides
 cd ~/.vim/bundle
 git clone https://github.com/nathanaelkane/vim-indent-guides
+
+# Install Rainbow Parentheses Improved
+cd ~/.vim/bundle
+git clone git@github.com:luochen1990/rainbow.git
