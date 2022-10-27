@@ -42,3 +42,6 @@ git clone git@github.com:luochen1990/rainbow.git
 # Install vim better whitespace
 cd ~/.vim/bundle
 git clone git@github.com:ntpeters/vim-better-whitespace.git
+
+# Launch zsh
+zsh
