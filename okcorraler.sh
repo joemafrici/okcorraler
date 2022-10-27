@@ -1,6 +1,9 @@
 #!/bin/bash
-
+cd ~/
 git clone git@github.com:joemafrici/dotfiles.git
+mv ~/dotfiles/.vim ~/.vim
+mv ~/dotfiles/.vimrc ~/.vimrc
+mv ~/dotfiles/.zshrc ~/.zshrc
 
 # Install dev tools
 sudo apt-get update
