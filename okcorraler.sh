@@ -39,4 +39,5 @@ git clone https://github.com/nathanaelkane/vim-indent-guides
 cd ~/.vim/bundle
 git clone git@github.com:luochen1990/rainbow.git
 
-
+# Install vim better whitespace
+git clone git://github.com/ntpeters/vim-better-whitespace.git ~/.vim/bundle/vim-better-whitespace
