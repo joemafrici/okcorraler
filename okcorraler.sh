@@ -7,6 +7,8 @@ chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 cd ~/
 git clone git@github.com:joemafrici/dotfiles.git
 mv ~/dotfiles/.vim ~/.vim
