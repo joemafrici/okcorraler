@@ -16,8 +16,8 @@ mv ~/dotfiles/.vimrc ~/.vimrc
 mv ~/dotfiles/.zshrc ~/.zshrc
 
 # Install dev tools
-sudo apt-get update
-sudo apt-get install build-essential
+#sudo apt-get update
+#sudo apt-get install build-essential
 
 # Install pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
