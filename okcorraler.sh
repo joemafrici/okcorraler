@@ -10,7 +10,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 cd ~/
-git clone git@github.com:joemafrici/dotfiles.git
+git clone https://github.com/joemafrici/okcorraler.git
 mv ~/dotfiles/.vim ~/.vim
 mv ~/dotfiles/.vimrc ~/.vimrc
 mv ~/dotfiles/.zshrc ~/.zshrc
@@ -37,11 +37,10 @@ git clone https://github.com/nathanaelkane/vim-indent-guides
 
 # Install Rainbow Parentheses Improved
 cd ~/.vim/bundle
-git clone git@github.com:luochen1990/rainbow.git
+git clone https://github.com/luochen1990/rainbow.git
 
 # Install vim better whitespace
 cd ~/.vim/bundle
-git clone git@github.com:ntpeters/vim-better-whitespace.git
-
+git clone https://github.com/ntpeters/vim-better-whitespace.git
 # Launch zsh
 zsh
